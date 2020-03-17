@@ -25,4 +25,39 @@ public class CalculadorDeImpostosTest {
 
         Assert.assertEquals(75,calculadorDeImpostos.calcula(orcamento, icms),0.001);
     }
+
+    @Test
+    public void deveRetornarCincoPorcentoDoOrcamentoICCC(){
+        Orcamento orcamento = new Orcamento(500);
+        Imposto iccc = new ICCC();
+
+        CalculadorDeImpostos calculadorDeImpostos = new CalculadorDeImpostos();
+
+        Assert.assertEquals(25,calculadorDeImpostos.calcula(orcamento, iccc ),0.001);
+
+
+    }
+    @Test
+    public void deveRetornarSetePorcentoDoOrcamentoICCC(){
+        Orcamento orcamento = new Orcamento(1000);
+        Imposto iccc = new ICCC();
+
+        CalculadorDeImpostos calculadorDeImpostos = new CalculadorDeImpostos();
+
+        Assert.assertEquals(70,calculadorDeImpostos.calcula(orcamento, iccc ),0.001);
+
+
+    }
+
+    @Test
+    public void deveRetornarOitoPorcentoMaisTrintaDoOrcamentoICCC(){
+        Orcamento orcamento = new Orcamento(10000);
+        Imposto iccc = new ICCC();
+
+        CalculadorDeImpostos calculadorDeImpostos = new CalculadorDeImpostos();
+
+        Assert.assertEquals(830,calculadorDeImpostos.calcula(orcamento, iccc ),0.001);
+
+
+    }
 }
