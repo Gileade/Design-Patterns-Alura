@@ -1,6 +1,6 @@
 package Strategy.Tests;
 
-import Strategy.*;
+import Strategy.Impostos.*;
 import org.junit.Assert;
 import org.junit.Test;
 

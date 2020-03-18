@@ -1,4 +1,4 @@
-package Strategy;
+package Strategy.Impostos;
 
 public class ISS implements Imposto {
     @Override
