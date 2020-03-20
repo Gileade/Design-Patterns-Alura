@@ -1,6 +1,8 @@
 package Strategy.Impostos;
 
+import Model.Orcamento;
+
 public interface Imposto {
 
-    public double calcula(Orcamento orcamento);
+    double calcula(Orcamento orcamento);
 }

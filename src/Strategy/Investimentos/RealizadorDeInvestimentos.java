@@ -1,5 +1,7 @@
 package Strategy.Investimentos;
 
+import Model.ContaBancaria;
+
 public class RealizadorDeInvestimentos {
 
     public void realizaInvestimento(ContaBancaria contaBancaria, Investimento estrategiaDeInvestimento){

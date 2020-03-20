@@ -1,5 +1,7 @@
 package Strategy.Investimentos;
 
+import Model.ContaBancaria;
+
 import java.util.Random;
 
 public class Arrojado implements Investimento {

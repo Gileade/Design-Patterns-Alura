@@ -1,5 +1,6 @@
 package Strategy.Tests;
 
+import Model.Orcamento;
 import Strategy.Impostos.*;
 import org.junit.Assert;
 import org.junit.Test;

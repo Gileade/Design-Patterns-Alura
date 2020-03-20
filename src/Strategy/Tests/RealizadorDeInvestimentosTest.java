@@ -1,5 +1,6 @@
 package Strategy.Tests;
 
+import Model.ContaBancaria;
 import Strategy.Investimentos.*;
 import org.junit.Assert;
 import org.junit.Test;

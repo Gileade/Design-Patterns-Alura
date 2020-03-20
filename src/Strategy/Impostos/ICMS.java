@@ -1,5 +1,7 @@
 package Strategy.Impostos;
 
+import Model.Orcamento;
+
 public class ICMS implements Imposto{
 
     @Override

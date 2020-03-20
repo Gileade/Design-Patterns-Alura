@@ -1,4 +1,4 @@
-package Strategy.Investimentos;
+package Model;
 
 public class ContaBancaria {
     private double saldo;

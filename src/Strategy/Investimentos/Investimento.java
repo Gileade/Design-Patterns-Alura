@@ -1,5 +1,7 @@
 package Strategy.Investimentos;
 
+import Model.ContaBancaria;
+
 public interface Investimento {
-    public double calculaRendimentoSobre(ContaBancaria contaBancaria);
+    double calculaRendimentoSobre(ContaBancaria contaBancaria);
 }
